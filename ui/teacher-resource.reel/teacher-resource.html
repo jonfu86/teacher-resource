@@ -9,12 +9,47 @@
             "properties": {
                 "element": {"#": "owner"}
             }
+        },
+        "Delete": {
+            "prototype": "digit/ui/button.reel",
+            "properties": {
+                "element": {"#": "Delete"},
+                "enabled": true,
+                "label": "Delete"
+            }
+        },
+        "New Folder": {
+            "prototype": "digit/ui/button.reel",
+            "properties": {
+                "element": {"#": "New Folder"},
+                "enabled": true,
+                "label": "New Folder"
+            }
+        },
+        "Open in Tabs": {
+            "prototype": "digit/ui/button.reel",
+            "properties": {
+                "element": {"#": "Open in Tabs"},
+                "enabled": true,
+                "label": "Open in Tabs"
+            }
+        },
+        "Resources": {
+            "prototype": "montage/ui/text.reel",
+            "properties": {
+                "element": {"#": "Resources"},
+                "value": "Resources"
+            }
         }
     }
     </script>
 </head>
 <body>
     <div data-montage-id="owner" class="TeacherResource">
+        <p data-montage-id="Resources"></p>
+        <button data-montage-id="New Folder"></button>
+        <button data-montage-id="Delete"></button>
+        <button data-montage-id="Open in Tabs"></button>
     </div>
 </body>
 </html>
